@@ -54,7 +54,7 @@ def remove_data(path):
 
 def get_images():
     images = []
-    valid_extensions = (".jpg", ".jpeg", ".png", ".gif", ".tiff", ".heic", ".heif")
+    valid_extensions = (".jpg", ".jpeg", ".png", ".gif", ".tiff", ".heic", ".heif", ".webp")
 
     for filename in os.listdir(folder_input):
         if filename.lower().endswith(valid_extensions):
