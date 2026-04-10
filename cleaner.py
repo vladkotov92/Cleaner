@@ -65,7 +65,7 @@ def get_images():
 # ── main menu ─────────────────────────────────────────────────────────────────
 def main_menu() -> None:
     print_header()
-    #get_images()
+    get_images()
 
 # ── entrypoint ────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
